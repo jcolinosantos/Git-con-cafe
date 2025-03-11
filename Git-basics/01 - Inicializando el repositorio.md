@@ -22,6 +22,12 @@ Crea un archivo llamado menu.txt con algunas recetas de café iniciales (no come
 3. Cappuccino
 ```
 
+Puedes conectar el repositorio de GitHub añadiendo el origen remoto.
+
+```bash
+git remote add origin https://github.com/USUARIO/NOMBRE_DEL_REPOSITORIO.git
+```
+
 ### Paso 3: Añadir el archivo y hacer el primer commit
 Ahora que has creado tu archivo menu.txt con el menú inicial necesitamos agregarlo a Git y luego hacer el primer commit. Esto significa que estamos guardando los cambios que hemos hecho en el repositorio para poder registrarlos y poder compartirlos con otros en el futuro.
 
@@ -70,7 +76,7 @@ Si cometiste un error en el mensaje del primer commit, puedes hacer lo siguiente
   ```bash
 
 git commit --amend -m "Agregar menú inicial de café (corregido)"
-Este comando te permite modificar el último mensaje de commit, sin tener que crear un nuevo commit.
+Este comando te permite modificar el último mensaje de commit, sin tener que crear un nuevo commit. Esta una operación "destructiva", lo que significa que cambia la historia del proyecto, y esto puede ser problemático si ya se ha compartido el commit.
   ```
 
 3. Si cometemos un error en los cambios que agregamos:
@@ -81,6 +87,6 @@ Si agregaste un archivo a la zona de preparación con git add, pero aún no has 
 git reset menu.txt
 ```
 
-Este comando quita el archivo del área de preparación, pero no elimina los cambios del archivo. Podrás corregirlo antes de agregarlo nuevamente.
+Este comando quita el archivo del área de preparación, pero **no elimina** los cambios del archivo. Podrás corregirlo antes de agregarlo nuevamente.
 
 
