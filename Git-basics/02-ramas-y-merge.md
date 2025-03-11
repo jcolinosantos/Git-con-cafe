@@ -1,4 +1,4 @@
-# 3. Ramas y Merge: Gestionando las recetas de café 🌱
+# 2. Ramas y Merge: Gestionando las recetas de café 🌱
 
 En Git, las **ramas** son como copias de tu proyecto donde puedes trabajar en nuevas características (como nuevas recetas de café) sin afectar el menú principal. 
 
