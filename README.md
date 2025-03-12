@@ -16,3 +16,6 @@ Bienvenido al tutorial de GitHub basado en un ejemplo de **cafetería**. Este tu
 - Tener instalado [Git](https://git-scm.com).
 
 ¡Comencemos a crear nuestro proyecto de "Café GitHub"! 🍵
+
+- [Inicializando el repositorio](Git-basics/01%20-%20Inicializando%20el%20repositorio.md)
+- [Ramas y Merge](Git-basics/02-ramas-y-merge.md)
